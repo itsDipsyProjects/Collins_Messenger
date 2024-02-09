@@ -1,0 +1,25 @@
+{
+  "name": "multiplayer_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "canvas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clientserver-run": "nodemon server.js",
+    "websocketserver-run": "nodemon ./websocket/websocket_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsDipsyProjects/multiplayer_game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsDipsyProjects/multiplayer_game/issues"
+  },
+  "homepage": "https://github.com/itsDipsyProjects/multiplayer_game#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
