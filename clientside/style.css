@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#sidebarContainer{
+    width: 25vw;
+    height:100vh;
+}
+
+
+#chatContainer{
+    width: 50vw;
+    height: 100vh;
+    border-right: 2px solid rgb(184, 180, 180);
+    border-left: 2px solid rgb(184, 180, 180);
+}
+
+
+
