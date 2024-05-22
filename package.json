@@ -5,8 +5,7 @@
   "main": "canvas.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clientserver-run": "nodemon server.js",
-    "websocketserver-run": "nodemon ./websocket/websocket_server.js"
+    "dev": "nodemon ./serverside/server.js"
   },
   "repository": {
     "type": "git",

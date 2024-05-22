@@ -12,6 +12,5 @@ async function registerRequest(registerObj){
     
     console.log(data);
 }
-
 registerRequest({test1: "test1"})
 
